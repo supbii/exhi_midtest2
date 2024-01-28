@@ -15,10 +15,7 @@
         body{
             margin: 0;
             overflow: hidden;
-            cursor: url('cursor.png')20 30, auto;
-        }
-        .container img {
-            cursor: url('clickcursor.gif'), auto;
+            cursor: url('cursor1.png')5 5, auto;
         }
         .backimage{
             position: fixed;
@@ -148,7 +145,7 @@
             width: 90%;
             height: 80%;
             text-align: center;
-            overflow-y: auto;
+            overflow: hidden;
             transition: transform 0.5s ease; /* 페이지 전환 효과 */
         }
         .popup-content h1{
@@ -181,7 +178,7 @@
             border-radius: 2px;
             color: #000;
             background-color: rgb(233, 233, 208);
-            cursor: pointer;
+            cursor: url('cursor1.png')20 30, auto;
             user-select: none; /* 텍스트 선택 방지 */
         }
         .nav-button:hover {
@@ -558,7 +555,6 @@
         <img id="sign" src="sign.png">
     </div>
     <div class="container">
-        <div class="click-cursor">
         <div class="vc">
             <img id="vcstandby" src="vcstandby.gif">
             <img id="vcplay1" src="vcplay1.gif" style="display: none;">
@@ -619,7 +615,6 @@
             <img id="vostandby" class="vostandby" src="vostandby.gif">
             <img id="voplay1" class="voplay1" src="voplay1.gif" style="display: none;">
             <img id="voplay2" class="voplay2" src="voplay2.gif" style="display: none;">
-        </div>
         </div>
         <!-- 여기까지 왼쪽 -->
         <div class="shadow">
